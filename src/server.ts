@@ -270,6 +270,11 @@ if (isMainModule(import.meta.url)) {
 }
 
 /**
+ * Export app for testing purposes
+ */
+export { app };
+
+/**
  * Request handler used by the Angular CLI (for dev-server and during build) or Firebase Cloud Functions.
  */
 export const reqHandler = createNodeRequestHandler(app);
